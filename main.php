@@ -18,7 +18,7 @@ print("вывод информации о животных\n");
 print_r($farm->inform());
 
 //сбор продукции
-$prod;
+$prod = 0;
 for($i=0; $i<7; $i++){
     $prod = $farm->collectAllProducts();
 }
